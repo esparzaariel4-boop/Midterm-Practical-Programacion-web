@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="barra-superior">
+      <a class="marca" href="index.html">
+        <img class="logo-youtube" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/YouTube_2024.svg/1920px-YouTube_2024.svg.png" alt="YouTube" />
+        <sup>EC</sup>
+      </a>
+
+      <form id="formulario-busqueda" class="barra-busqueda">
+        <input id="busqueda" type="search" placeholder="Buscar videos" />
+        <button type="submit">Buscar</button>
+      </form>
+    </header>
+
+    <div class="distribucion-home">
+      <aside class="barra-lateral">
+        <nav>
+          <a class="opcion" href="index.html">Principal</a>
+
+          <hr />
+
+          <p class="titulo-menu">Explorar</p>
+          <a class="opcion" href="index.html?categoria=Musica">Música</a>
+          <a class="opcion" href="index.html?categoria=Futbol">Fútbol</a>
+          <a class="opcion" href="index.html?categoria=Viaje">Viajes</a>
+          <a class="opcion" href="index.html?categoria=Twich">Twitch</a>
+        </nav>
+      </aside>
+
+      <main class="contenido-home">
+        <h1 id="titulo-home">Videos</h1>
+
+        <section id="galeria" class="galeria"></section>
+      </main>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

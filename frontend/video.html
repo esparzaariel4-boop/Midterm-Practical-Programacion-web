@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reproductor - Videos Fake</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header class="barra-superior">
+      <a class="marca" href="index.html">
+        <img class="logo-youtube" src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/YouTube_2024.svg/1920px-YouTube_2024.svg.png" alt="YouTube" />
+        <sup>EC</sup>
+      </a>
+    </header>
+
+    <main class="pagina-video">
+      <section class="contenido-principal">
+        <video id="reproductor" controls></video>
+
+        <h1 id="titulo-video">Cargando video...</h1>
+        <p id="descripcion-video"></p>
+
+        <section class="comentarios">
+          <h2>Comentarios</h2>
+
+          <form id="formulario-comentario">
+            <label for="autor">Tu nombre</label>
+            <input id="autor" type="text" required />
+
+            <label for="contenido">Comentario</label>
+            <textarea id="contenido" required></textarea>
+
+            <button type="submit">Publicar comentario</button>
+          </form>
+
+          <section id="lista-comentarios"></section>
+        </section>
+      </section>
+
+      <aside class="recomendaciones">
+        <h2>Videos recomendados</h2>
+        <section id="lista-recomendaciones"></section>
+      </aside>
+    </main>
+
+    <script src="js/video.js"></script>
+  </body>
+</html>
