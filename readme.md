@@ -1,8 +1,8 @@
-# Videos Fake - Plataforma de Streaming
+# Youtube - Plataforma de Streaming
 
 Proyecto con FastAPI, SQLModel, SQLite y AWS S3.
 
-## Cómo correr el backend
+## Cómo correr el backend en powershell
 
 ```
 python -m venv .venv
@@ -23,4 +23,4 @@ http://ariel-codigo-videos.s3-website-us-east-1.amazonaws.com
 En los dos casos la API tiene que estar corriendo.
 
 ## Autor
-Ariel Esparza - UIDE
+Ariel Esparza 
